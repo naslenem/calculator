@@ -19,7 +19,7 @@ spec:
         image: leszko/calculator:{{VERSION}}
         imagePullPolicy: Always
         ports:
-        - containerPort: 8081
+        - containerPort: 8080
 
 ---
 
@@ -32,4 +32,4 @@ spec:
   selector:
     app: calculator
   ports:
-  - port: 8081
+  - port: 8080
